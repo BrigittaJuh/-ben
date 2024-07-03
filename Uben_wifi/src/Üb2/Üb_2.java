@@ -8,6 +8,7 @@ public class Üb_2 {
             System.out.println(i);
             i--;
         }
-
     }
+
+
 }
