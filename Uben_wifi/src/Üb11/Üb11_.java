@@ -1,4 +1,4 @@
-package Üb10.Üb11;
+package Üb11;
 
 public class Üb11_ {
     public static void main(String[] args) {
