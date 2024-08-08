@@ -1,4 +1,6 @@
-package ÜbStream5;
+package ÜbStream5.logic;
+
+import ÜbStream5.date.Order;
 
 import java.util.List;
 

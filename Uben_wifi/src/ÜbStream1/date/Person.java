@@ -1,2 +1,4 @@
-package ÜbStream1;public record Person() {
+package ÜbStream1.date;
+
+public record Person(String name, int age) {
 }

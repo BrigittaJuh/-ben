@@ -1,2 +1,4 @@
-package ÜbStream11;public record Product() {
+package ÜbStream11;
+
+public record Product(String name, String category) {
 }

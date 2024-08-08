@@ -2,13 +2,15 @@ package Üb13;
 
 public class Üb_13_ {
     public static void main(String[] args) {
-        int[] numb ={1,2,3,4,5,6,7,8,9};
+        int[] number = {22,65,78,16,7982,761,365,996,};
+        for (int i = 0; i < number.length; i++) {
+            if(number[i] % 2 == 0);
 
-        for (int i = 0; i < numb.length; i++) {
-            if (numb[i] % 2 == 0){
-                System.out.println("paros szamok: " + numb[i]);
-            }
         }
+    }
+
 
     }
-}
+
+
+

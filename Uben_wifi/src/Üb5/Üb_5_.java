@@ -2,14 +2,14 @@ package Üb5;
 
 public class Üb_5_ {
     public static void main(String[] args) {
-        int number = 0;
+        int number = -5;
 
         if (number > 0){
-            System.out.println("pozitive number");
+            System.out.println("a szam pozitiv");
         } else if (number < 0) {
-            System.out.println("negative number");
+            System.out.println("a szam negativ");
         } else {
-            System.out.println("number ist 0");
+            System.out.println("a szam nulla");
         }
     }
 }

@@ -1,2 +1,5 @@
-package ÜbOOP4;public interface Transport {
+package ÜbOOP4;
+
+public interface Transport {
+    void deliver();
 }
