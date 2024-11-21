@@ -9,22 +9,20 @@ public class ShoppingList {
     public ShoppingList(){
         items = new ArrayList<>();
     }
-
-    public void addItems(String item){
+    public void addItem(String item){
         items.add(item);
     }
-    public void removeItems (String item){
+
+    public void removeItem(String item){
         items.remove(item);
     }
-
     public void clearList(){
         items.clear();
     }
 
-    public void listItems(){
+    public void listItem(){
         for (String item : items){
             System.out.println(item);
         }
     }
 }
-

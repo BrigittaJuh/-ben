@@ -3,21 +3,23 @@ package ÜbList3;
 public class Main {
     public static void main(String[] args) {
         ShoppingList sl = new ShoppingList();
-        sl.addItems("tej");
-        sl.addItems("kenyer");
-        sl.addItems("cukor");
-        sl.addItems("vaj");
+        sl.addItem("tej");
+        sl.addItem("tojas");
+        sl.addItem("vaj");
+        sl.addItem("kenyer");
+        sl.addItem("sajt");
 
-        System.out.println("Bevasarlo lista: ");
-        sl.listItems();
+        System.out.println("Bevasarlo lista");
+        sl.listItem();
 
-        sl.removeItems("kenyer");
+        sl.removeItem("vaj");
 
-        System.out.println("frissitett lista: ");
-        sl.listItems();
+        System.out.println("Frisitett bevasarlo lista: ");
+        sl.listItem();
 
-        System.out.println("kiüritett lista: ");
         sl.clearList();
-        sl.listItems();
+
+        System.out.println("Kiüritett lista: ");
+        sl.listItem();
     }
 }

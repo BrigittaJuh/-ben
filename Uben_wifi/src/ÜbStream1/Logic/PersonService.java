@@ -11,4 +11,8 @@ public class PersonService {
                 .average()
                 .getAsDouble();
     }
+
+    public List<ÜbStreams1.Person> filterAdults(List<ÜbStreams1.Person> people) {
+        return people;
+    }
 }

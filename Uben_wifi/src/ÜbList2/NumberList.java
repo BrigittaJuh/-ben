@@ -10,33 +10,30 @@ public class NumberList {
         numbers = new ArrayList<>();
     }
 
-    public void addNumber(int number) {
+    public void addNumber(int number){
         numbers.add(number);
     }
-
-    public void remoteNumbers(int number) {
+    public void removeNumber (int number){
         numbers.remove(Integer.valueOf(number));
     }
 
-    public int sum(){
+    public int sum (){
         int total = 0;
-        for (int number : numbers) {
+        for (int number : numbers){
             total += number;
         }
         return total;
     }
-
-    public double average (){
-        if(numbers.isEmpty()) {
+    public double average(){
+        if (numbers.isEmpty()){
             return 0;
         }
-        return (double) sum() /numbers.size();
+        return (double) sum() / numbers.size();
     }
 
-    public void listNumbers(){
-        for ( int number : numbers){
+    public void listNumber(){
+        for (int number : numbers){
             System.out.println(number);
         }
     }
-
 }
